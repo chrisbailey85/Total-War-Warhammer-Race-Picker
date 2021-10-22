@@ -178,6 +178,7 @@ body.nav__open {
     text-decoration: none;
     border: 1px solid #111;
     border-top: none;
+    text-transform: capitalize;
     transition: background-color 0.3s ease-in-out, color 0.3s 0.1s ease-in-out;
   }
 }
