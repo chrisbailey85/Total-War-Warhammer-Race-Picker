@@ -695,7 +695,7 @@ addonsCheckboxes.forEach((checkbox)=>{
 twoPlayers.addEventListener("click", (e)=>e.target.nextElementSibling.classList.toggle("marked")
 );
 
-},{"../images/Beastmen/Slaughterhorn_Tribe.png":"gGt06","../images/vampire coast/awakend.png":"iugfZ","../images/vampire coast/Dreadfleet.png":"j7Fwi","../images/vampire coast/Drowned.png":"i7mEq","../images/vampire coast/Sartosa.png":"l1bdS","../images/Tomb Kings/Court_of_Lybaras.png":"fRRxW","../images/Tomb Kings/Exiles_of_Nehek.png":"lxVrb","../images/Tomb Kings/Followers_of_Nagash.png":"kuDeO","../images/Tomb Kings/Khemri.png":"65ppj","../images/Wood Elves/Heralds_of_Ariel.png":"7Bvk0","../images/Greenskins/Broken_Axe.png":"7iWZw","../images/Dark Elves/Cult_of_Pleasure.png":"eDwbb","../images/Dark Elves/Naggarond.png":"5D6Io","../images/Dark Elves/The_Blessed_Dread.png":"4gLIq","../images/Dark Elves/The_Thousand_Maws.png":"hff0n","../images/Dark Elves/Wh2_main_def_hag_graef_crest.png":"dNZy0","../images/Dark Elves/Wh2_main_def_har_ganeth_crest.png":"c4UeS","../images/Lizardmen/Cult_of_Sotek.png":"1GShU","../images/Lizardmen/Ghosts_of_Pahaux.png":"g3haK","../images/Lizardmen/Hexoatl.png":"9nfb4","../images/Lizardmen/Last_Defenders.png":"iJnj6","../images/Lizardmen/Spirit_of_the_Jungle.png":"9qP3q","../images/Lizardmen/Wh2_main_lzd_itza_crest.png":"73P7g","../images/Lizardmen/Wh2_main_lzd_tlaqua_crest.png":"eAhlh","../images/High Elves/Avelorn.png":"hsyKW","../images/High Elves/Eataine.png":"lyS80","../images/High Elves/Knights_of_Caledor.png":"fY2gP","../images/High Elves/Nagarythe.png":"acNsh","../images/High Elves/Order_of_Loremasters.png":"frzTV","../images/High Elves/Yvresse.png":"5YSJN","../images/Skaven/Clan_Rictus.png":"2OYeS","../images/Skaven/Clan_Skryre.png":"cZCss","../images/Skaven/Wh2_main_skv_clan_eshin_crest.png":"fSf97","../images/Skaven/Wh2_main_skv_clan_mors_crest.png":"dVrXP","../images/Skaven/Wh2_main_skv_clan_moulder_crest.png":"eG4B9","../images/Skaven/Wh2_main_skv_clan_pestilens_crest.png":"kqa5V","../images/Bretonnia/Chevaliers_de_Lyonesse.png":"kt2nh","../images/The Empire/The_Huntsmarshals_Expedition.png":"eCxyd"}],"gGt06":[function(require,module,exports) {
+},{"../images/Beastmen/Slaughterhorn_Tribe.png":"gGt06","../images/vampire coast/awakend.png":"iugfZ","../images/vampire coast/Dreadfleet.png":"j7Fwi","../images/vampire coast/Drowned.png":"i7mEq","../images/vampire coast/Sartosa.png":"l1bdS","../images/Tomb Kings/Court_of_Lybaras.png":"fRRxW","../images/Tomb Kings/Exiles_of_Nehek.png":"lxVrb","../images/Tomb Kings/Followers_of_Nagash.png":"kuDeO","../images/Tomb Kings/Khemri.png":"65ppj","../images/The Empire/The_Huntsmarshals_Expedition.png":"eCxyd","../images/Wood Elves/Heralds_of_Ariel.png":"7Bvk0","../images/Dark Elves/Cult_of_Pleasure.png":"eDwbb","../images/Dark Elves/Naggarond.png":"5D6Io","../images/Dark Elves/The_Blessed_Dread.png":"4gLIq","../images/Dark Elves/The_Thousand_Maws.png":"hff0n","../images/Dark Elves/Wh2_main_def_hag_graef_crest.png":"dNZy0","../images/Dark Elves/Wh2_main_def_har_ganeth_crest.png":"c4UeS","../images/Lizardmen/Cult_of_Sotek.png":"1GShU","../images/Lizardmen/Ghosts_of_Pahaux.png":"g3haK","../images/Lizardmen/Hexoatl.png":"9nfb4","../images/Lizardmen/Last_Defenders.png":"iJnj6","../images/Lizardmen/Spirit_of_the_Jungle.png":"9qP3q","../images/Lizardmen/Wh2_main_lzd_itza_crest.png":"73P7g","../images/Lizardmen/Wh2_main_lzd_tlaqua_crest.png":"eAhlh","../images/High Elves/Avelorn.png":"hsyKW","../images/High Elves/Eataine.png":"lyS80","../images/High Elves/Knights_of_Caledor.png":"fY2gP","../images/High Elves/Nagarythe.png":"acNsh","../images/High Elves/Order_of_Loremasters.png":"frzTV","../images/High Elves/Yvresse.png":"5YSJN","../images/Skaven/Clan_Rictus.png":"2OYeS","../images/Skaven/Clan_Skryre.png":"cZCss","../images/Skaven/Wh2_main_skv_clan_eshin_crest.png":"fSf97","../images/Skaven/Wh2_main_skv_clan_mors_crest.png":"dVrXP","../images/Skaven/Wh2_main_skv_clan_moulder_crest.png":"eG4B9","../images/Skaven/Wh2_main_skv_clan_pestilens_crest.png":"kqa5V","../images/Greenskins/Broken_Axe.png":"7iWZw","../images/Bretonnia/Chevaliers_de_Lyonesse.png":"kt2nh"}],"gGt06":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Slaughterhorn_Tribe.c652e78b.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"chiK4"}],"chiK4":[function(require,module,exports) {
@@ -757,11 +757,11 @@ module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Fol
 },{"./helpers/bundle-url":"chiK4"}],"65ppj":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Khemri.cbdb71c7.png" + "?" + Date.now();
 
+},{"./helpers/bundle-url":"chiK4"}],"eCxyd":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../The_Huntsmarshals_Expedition.9916227f.png" + "?" + Date.now();
+
 },{"./helpers/bundle-url":"chiK4"}],"7Bvk0":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Heralds_of_Ariel.81ea718b.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"chiK4"}],"7iWZw":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Broken_Axe.acefe3d6.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"chiK4"}],"eDwbb":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Cult_of_Pleasure.68a2873f.png" + "?" + Date.now();
@@ -838,11 +838,11 @@ module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Wh2
 },{"./helpers/bundle-url":"chiK4"}],"kqa5V":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Wh2_main_skv_clan_pestilens_crest.bc9a1d7c.png" + "?" + Date.now();
 
+},{"./helpers/bundle-url":"chiK4"}],"7iWZw":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Broken_Axe.acefe3d6.png" + "?" + Date.now();
+
 },{"./helpers/bundle-url":"chiK4"}],"kt2nh":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../Chevaliers_de_Lyonesse.5ea4d62d.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"chiK4"}],"eCxyd":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('9CZQD') + "../The_Huntsmarshals_Expedition.9916227f.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"chiK4"}]},["5xIPH","6fgZa"], "6fgZa", "parcelRequire9d0d")
 
