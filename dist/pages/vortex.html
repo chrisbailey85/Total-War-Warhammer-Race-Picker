@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="site description">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@creator">
+    <meta property="og:url" content="twiter card link">
+    <meta property="og:title" content="twitter card title">
+    <meta property="og:description" content="twiter card description here">
+    <!-- <meta property="og:image" content="card image" /> -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="/index.b9e7706e.css">
+    <title>Warhammer Race Picker: Eye of the Vortex</title>
+  </head>
+  <body>
+    <header class="header">
+      <div><img src="/logo.92c967ee.svg" alt="" class="logo"></div>
+      <nav class="nav">
+        <button class="hamburger hamburger--vortex" type="button" aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div id="navigation" class="nav__bar">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/index.html" class="nav__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="/pages/vortex.html" class="nav__link active">eye of the vortex</a>
+            </li>
+            <li class="nav__item">
+              <a href="/pages/mortal.html" class="nav__link">mortal empires</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <h1 class="heading">Total War: Warhammer Race Picker</h1>
+        <h2 class="heading sub__heading">Eye of the Vortex</h2>
+      </section>
+
+      <section class="form__section">
+        <form class="form form--vortex">
+          <div class="input__container">
+            <input type="checkbox" name="two player" id="two__player" class="two__player">
+            <label for="two__player">Two player coop</label>
+          </div>
+          <h2 class="form__heading">Select addons to excludes:</h2>
+          <div class="input__container">
+            <input type="checkbox" name="Vampire Coast" id="vampire__coast" class="addons" data-two-player="true">
+            <label for="vampire__coast">Curse of the Vampire Coast </label>
+          </div>
+
+          <div class="input__container">
+            <input type="checkbox" name="Tomb King" id="tomb__kings" class="addons" data-two-player="true">
+            <label for="tomb__kings">Rise of the Tomb Kings </label>
+          </div>
+
+          <div class="input__container">
+            <input type="checkbox" name="The Empire" id="empire" class="addons" data-two-player="false">
+            <label for="empire">The Hunter and the Beast</label>
+          </div>
+
+          <div class="input__container">
+            <input type="checkbox" name="Beastmen" id="beastmen" class="addons" data-two-player="false">
+            <label for="beastmen">The Silence & The Fury</label>
+          </div>
+
+          <div class="input__container">
+            <input type="checkbox" name="Wood Elfs" id="wood__elfs" class="addons" data-two-player="false">
+            <label for="wood__elfs">The Twisted and the Twilight</label>
+          </div>
+
+          <div class="input__container">
+            <input type="checkbox" name="Greenskins" id="greenskins" class="addons" data-two-player="false">
+            <label for="greenskins">The Warden and the Paunch</label>
+          </div>
+
+          <button class="get__race">get race</button>
+        </form>
+      </section>
+      <section class="loading hidden">
+        <h2 class="heading sub__heading">Loading...</h2>
+        <div class="shuffle"></div>
+      </section>
+      <section class="seleted__race hidden">
+        <h2 class="race__name heading sub__heading">Beastmen</h2>
+        <div class="images__container"></div>
+      </section>
+    </main>
+    <footer>
+      <a href="https://twitter.com/bailey_coding" target="_blank" rel="noreferrer">Made by Chris Bailey</a>
+    </footer>
+    <script src="/pages/vortex.4d4ef364.js" defer=""></script>
+  </body>
+</html>
