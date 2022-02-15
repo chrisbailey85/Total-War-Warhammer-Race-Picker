@@ -56,7 +56,7 @@ const hiddenSections = () => {
   formSection.classList.add('hidden')
   loadingSection.classList.remove('hidden')
   setTimeout(() => {
-    loadingSection.innerHTML = `<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_jlrxxylp.json"  background="transparent"  speed="1.1"  style="width: 100px; height: 50px;"  loop autoplay></lottie-player>`
+    loadingSection.innerHTML = `<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_jlrxxylp.json"  background="transparent"  speed="1.1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>`
   }, 100)
 
   setTimeout(() => {
