@@ -24,12 +24,9 @@
       content="https://raw.githubusercontent.com/chrisbailey85/Total-War-Warhammer-Race-Picker/main/src/images/social%20card%20img.png"
     />
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
     <!-- my stylesheet -->
     <link rel="stylesheet" href="./scss/main.scss" />
     <title>Total war: warhammer race picker</title>
@@ -63,6 +60,10 @@
             <li class="nav__item">
               <a href="./pages/mortal.html" class="nav__link">mortal empires</a>
             </li>
+            <li class="nav__item">
+              <a href="./pages/warhammerThree.html" class="nav__link">warhammer three</a>
+            </li>
+           
           </ul>
         </div>
       </nav>
@@ -85,23 +86,31 @@
         <h2 class="heading heading--md">Select Your Game Mode</h2>
         <div class="cards">
           <div class="card">
-            <img
-              src="./images/Wh2_main_great_vortex_map.jpg"
+            
+            <a href="./pages/vortex.html"
+              ><img
+              src="./images/vortex.png"
               alt="Eye of the Vortex map"
               class="card__img"
-            />
-            <a href="./pages/vortex.html" class="card__link"
-              >eye of the Vortex</a
+            /></a
             >
           </div>
           <div class="card">
-            <img
-              src="./images/7ofjBSK.png"
+            <a href="./pages/mortal.html"><img
+              src="./images/mortal.png"
               alt="Mortal Empires map"
               class="card__img"
-            />
-            <a href="./pages/mortal.html" class="card__link">mortal empires</a>
+            /></a>
           </div>
+          <div class="card">
+            
+            <a href="./pages/warhammerThree.html"><img
+              src="./images/WH3_Logo.png"
+              alt="Mortal Empires map"
+              class="card__img"
+            /></a>
+          </div>
+        </div>
         </div>
       </section>
     </main>
